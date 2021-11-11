@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&display=swap');
+// Place all the styles related to the pages controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+.container {
+    width: 700px;
+    margin: 40px auto;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.answer-container {
+    width: 700px;
+    margin: 40px auto;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.submit-area{
+  align-items: center;
+}
+
+h1{
+  font-family: 'Mochiy Pop P One', sans-serif;
+  color: green;
+}
+
+form{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.input-form{
+ border-radius: 30px;
+ border: solid 1.5px #D3D3D3;
+ text-indent: 5px;
+ transition: 5s;
+ height: 30px;
+ width: 300px;
+ margin-bottom: 10px;
+}
+
+.input-form:focus{
+  box-shadow: 0 0 5pt 2pt #D3D3D3;
+  outline-width: 0px;
+}
+
+.submit-btn{
+  border-radius: 30px;
+  color: white;
+  background-color: green;
+  font-family: 'Mochiy Pop P One', sans-serif;
+  height: 32px;
+  width: 150px;
+}
+
+.my-question{
+  font-family: 'Mochiy Pop P One', sans-serif;
+  color: green;
+}
+
+.coach-answer{
+  font-family: 'Mochiy Pop P One', sans-serif;
+  color: green;
+}
